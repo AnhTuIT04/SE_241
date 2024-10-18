@@ -53,7 +53,7 @@ git commit -m "Text"
 Push code lên branch
 
 ```bash
-git push origin <tên-branch>
+git push origin <branch-name>
 ```
 
 ---
