@@ -17,7 +17,7 @@
 
 ### Lưu ý :
 
-- Không push lên main, chỉ push lên branch (ai phụ trách phần nào thì push lên ở brand đó).
+- Không push lên main, chỉ pull request lên branch (ai phụ trách phần nào thì pull lên ở brand đó).
 - Sau đó code sẽ được merge lại và đẩy lên nhánh develop.
   Main chỉ là nơi up code lên, code clean nhất vào thời điểm đó và là source code dùng để nộp bài.
 - Bất cứ thay đổi nào khi commit lên phải có thông báo.
