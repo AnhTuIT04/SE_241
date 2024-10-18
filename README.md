@@ -121,3 +121,9 @@ git push origin <branch-name>
 | 11   | Core-code                                                                                       |
 | 12   | Core-code                                                                                       |
 | 13   | Core-code + Integrate + Containerize + Test                                                     |
+
+### Họp 18/10
+- Activity diagram -> Hỏi lại thầy chia làm nhiều module hay 1 
+- Sequence diagram -> Thêm database, active line?
+- Class diagram -> Check lại
+- Push hết những cái diagram lên github.
