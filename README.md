@@ -87,19 +87,19 @@ git push origin <branch-name>
 - Thiết kế Database.
 - Thiết kế API theo kiến trúc Microservice.
 - Các services :
-  - **Authentication**
+  - `**Authentication**`
     - HCMUT_SSO. **(Oauth2, JWT)**
     - API gateway, security.
-  - **Printer Management**
+  - `**Printer Management**`
     - Thêm, sửa xóa, kích hoạt, vô hiệu hóa
     - Quản lý dữ liệu liên quan tới máy in: ID, model, địa điểm, trạng thái
-  - **Print Process**
+  - `**Print Process**`
     - Xử lý quá trình in: nhận file, thuộc tính in (kích cỡ giấy, số trang, số mặt,...).
     - Tích hợp với trang **Student** và **SPSO**.
     - __Mornitoring + Alerting.__
-  - **Logging and Reporting** 
+  - `**Logging and Reporting** `
     - Ghi nhận và lưu lại lịch sử in, tạo báo cáo hàng tháng/ năm.
-  - **Payment** -> Tuấn
+  - `**Payment**`
     - Mua thêm trang in, tích hợp với hệ thống thanh toán trực tuyến.
     - Quản lý số trang in của sinh viên và kiểm tra số dư khi sinh viên thực hiện lệnh in.
     - Payment logging.
