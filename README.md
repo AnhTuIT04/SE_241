@@ -9,11 +9,11 @@
 | 1   | Lê Hoàng Ngọc Hân   | 2210935 | Front-end         |
 | 2   | Huỳnh Văn Tú        | 2213841 | Front-end         |
 | 3   | Lê Hoàng Khánh Vinh | 2213963 | Front-end         |
-| 4   | Chu Minh Tâm        | 2213009 | Manage + Back-end |
-| 5   | Huỳnh Thị Minh Tâm  | 2213013 | Back-end          |
-| 6   | Trần Mạnh Tuấn      | 2213807 | Back-end          |
-| 7   | Phạm Việt Anh       | 2210128 | Back-end          |
-| 8   | Võ Quốc Huy         | 2211303 | Back-end          |
+| 4   | Chu Minh Tâm        | 2213009 | Authentication|
+| 5   | Huỳnh Thị Minh Tâm  | 2213013 | Logging and Reporting        |
+| 6   | Trần Mạnh Tuấn      | 2213807 | Payment         |
+| 7   | Phạm Việt Anh       | 2210128 | Printe Process        |
+| 8   | Võ Quốc Huy         | 2211303 | Printer Management         |
 
 ### Lưu ý :
 
@@ -87,17 +87,17 @@ git push origin <branch-name>
 - Thiết kế Database.
 - Thiết kế API theo kiến trúc Microservice.
 - Các services :
-  - **Authentication** -> Tâm
+  - **Authentication**
     - HCMUT_SSO. **(Oauth2, JWT)**
     - API gateway, security.
-  - **Printer Management** -> Huy
+  - **Printer Management**
     - Thêm, sửa xóa, kích hoạt, vô hiệu hóa
     - Quản lý dữ liệu liên quan tới máy in: ID, model, địa điểm, trạng thái
-  - **Print Process** -> Việt Anh
+  - **Print Process**
     - Xử lý quá trình in: nhận file, thuộc tính in (kích cỡ giấy, số trang, số mặt,...).
     - Tích hợp với trang **Student** và **SPSO**.
     - __Mornitoring + Alerting.__
-  - **Logging and Reporting** -> Tâm Huỳnh
+  - **Logging and Reporting** 
     - Ghi nhận và lưu lại lịch sử in, tạo báo cáo hàng tháng/ năm.
   - **Payment** -> Tuấn
     - Mua thêm trang in, tích hợp với hệ thống thanh toán trực tuyến.
