@@ -73,7 +73,7 @@ git push origin <branch-name>
 
 ### Công nghệ
 
-- TypeScript / Javascript
+- `TypeScript` / Javascript
 - ReactJS
 - TailwindCSS
 
