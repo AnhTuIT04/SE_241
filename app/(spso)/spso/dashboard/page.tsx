@@ -1,8 +1,10 @@
-'use client';
-
 import DashboardCard from '@/components/dashboard/DashboardCard';
-import DashboardFilterAndChart from '@/components/dashboard/DashboardFilterAndChart';
 import { dashboardCards } from '@/constants/spso';
+import BarChartAndFilter from '@/components/dashboard/BarChartAndFilter';
+import AreaChartAndFilter from '@/components/dashboard/AreaChartAndFilter';
+import PrintingLogTable from '@/components/PrintTable/PrintingLogTable';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import PaymentLogTable from '@/components/PaymentTable/PaymentLogTable';
 
 export default function Home() {
   return (
@@ -17,7 +19,20 @@ export default function Home() {
         ))}
       </div>
 
-      <DashboardFilterAndChart />
+      <Tabs defaultValue="printing" className="w-full">
+        <TabsList>
+          <TabsTrigger value="printing">Printing</TabsTrigger>
+          <TabsTrigger value="payment">Payment</TabsTrigger>
+        </TabsList>
+        <TabsContent value="printing" className='flex flex-col gap-10'>
+          <BarChartAndFilter />
+          <PrintingLogTable />
+        </TabsContent>
+        <TabsContent value="payment" className='flex flex-col gap-10'>
+          <AreaChartAndFilter />
+          <PaymentLogTable />
+        </TabsContent>
+      </Tabs>
     </div>
   );
 }

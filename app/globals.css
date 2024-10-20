@@ -45,7 +45,7 @@ body {
     @apply sticky left-0 top-0 z-20 flex items-center h-screen w-64 max-lg:w-fit flex-col justify-between overflow-auto pb-5 pt-24 max-md:hidden border-r;
   }
 
-  .action-wrapper {
+  .sidebar-wrapper {
     width: 80%;
   }
 
@@ -81,7 +81,7 @@ body {
     @apply fixed bottom-0 z-10 w-screen rounded-t-3xl backdrop-blur-lg xs:px-7 md:hidden;
   }
 
-  .bottombar-container {
+  .bottombar-wrapper {
     @apply flex items-center justify-between xs:py-2;
   }
 
